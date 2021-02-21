@@ -1,0 +1,164 @@
+body{
+    background-image: url("../medias/Bckgrnd.jpg");
+}
+.container {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 25%);
+  grid-gap: 0px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.img{
+   grid-area:1/1/3/4;
+    background-color: #999999;
+    padding-left: 100px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.logo{
+    padding-top: 5px;
+    width: 140px;
+    height: 140px;
+}
+
+.navigation{
+    text-align: center;
+    grid-area: 2/1/6/4;
+    background-color: #999999;
+    border-radius: 0px 0px 20px 20px;
+    background: rgb(69,69,69);
+    background: linear-gradient(0deg, rgba(69,69,69,1) 0%, rgba(153,153,153,1) 100%);
+}
+.navigation>ul{
+    list-style-type: none;
+    margin-top: 40px;
+    padding: 0px;
+    
+}
+
+.title{
+    grid-area: 1/4/2/7;
+    text-align: center;
+    vertical-align: bottom;
+    display:inline-block;
+    padding-top: 70px;
+    font-size: 3.8rem;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.contenu{
+    margin-left: 40px;
+    grid-area: 2/6/6/11;
+    /*background: rgb(69,69,69);
+    background: radial-gradient(circle, rgba(69,69,69,1) 0%, rgba(210,210,210,0) 69%);*/
+    font-size: 2rem;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    vertical-align: center;
+}
+
+.contenu p a{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.contenu p a:hover{
+    color: darkorange;
+}
+
+.liNorm {
+     margin: 0px 40px 40px 60px;
+    font-size: 48px;
+    padding: 11px 16px;
+    background: linear-gradient(to right, white 50%, rgba(255, 0, 0, 0) 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition:background-position 0.5s ease;
+    border-radius: 20px 20px 20px 20px;
+   
+}
+.navigation li:hover {
+    background-position:left bottom;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.realisation{
+    width: 300px;
+    height: 250px;
+}
+.menuActif{
+    background: rgba(0,0,0,1);
+     margin: 0px 40px 40px 60px;
+    font-size: 48px;
+    padding: 11px 16px;
+        border-radius: 20px 20px 20px 20px;
+}
+
+.menuActif a:visited{
+    color: white;
+}
+
+.logoAcc{
+    width: 450px;
+    height: 450px;
+}
+
+.realisations_contenu{
+    /*grid-area: 2/6/6/11;*/
+}
+
+
+/* Code pris de W3 school */
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
