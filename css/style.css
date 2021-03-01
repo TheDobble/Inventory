@@ -1,5 +1,5 @@
 body{
-    background-image: url("../medias/Bckgrnd.jpg");
+    background-image: url("../medias/Bckgrnd_Neutre.jpg");
 }
 .container {
   margin: 0px;
@@ -44,9 +44,15 @@ body{
     vertical-align: bottom;
     display:inline-block;
     padding-top: 70px;
-    font-size: 3.8rem;
+    font-size: 3.8em;
     color: white;
     font-family: 'Anton', sans-serif;
+}
+
+.acceuil_contenu{
+    background: linear-gradient(0deg, rgba(69,69,69,1) 0%, rgba(153,153,153,1) 100%);
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .contenu{
@@ -54,7 +60,7 @@ body{
     grid-area: 2/6/6/11;
     /*background: rgb(69,69,69);
     background: radial-gradient(circle, rgba(69,69,69,1) 0%, rgba(210,210,210,0) 69%);*/
-    font-size: 2rem;
+    font-size: 2em;
     color: white;
     font-family: 'Anton', sans-serif;
     text-align: center;
@@ -104,7 +110,7 @@ a:visited{
 .menuActif{
     background: rgba(0,0,0,1);
      margin: 0px 40px 40px 60px;
-    font-size: 48px;
+    font-size: 3em;
     padding: 11px 16px;
         border-radius: 20px 20px 20px 20px;
 }
@@ -119,7 +125,10 @@ a:visited{
 }
 
 .realisations_contenu{
-    /*grid-area: 2/6/6/11;*/
+    background: linear-gradient(0deg, rgba(69,69,69,1) 0%, rgba(153,153,153,1) 100%);
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5%;
 }
 
 
@@ -157,8 +166,24 @@ img {vertical-align: middle;}
   border-radius: 3px 0 0 3px;
 }
 
+.prev{
+    left:0px;
+}
+
 /* On hover, add a grey background color */
 .prev:hover, .next:hover {
   background-color: #f1f1f1;
   color: black;
+}
+
+.aPropos_contenu{
+    background: linear-gradient(0deg, rgba(69,69,69,1) 0%, rgba(153,153,153,1) 100%);
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.meContacter_contenu{
+    background: linear-gradient(0deg, rgba(69,69,69,1) 0%, rgba(153,153,153,1) 100%);
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
 }
