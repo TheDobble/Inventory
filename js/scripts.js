@@ -5,7 +5,7 @@ $(".acceuil").parent().removeClass("liNorm");
     $(".acceuilNav").parent().show();
     $(sDernierMenu).parent().addClass("liNorm");
     $(sDernierMenu).parent().removeClass("menuActif");
-    $('.title').text("Acceuil");
+    $('.title').text("Accueil");
     $('.meContacter_contenu').hide();
     $('.aPropos_contenu').hide();
     $('.realisations_contenu').hide();
